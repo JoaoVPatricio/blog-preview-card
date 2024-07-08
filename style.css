@@ -88,3 +88,39 @@ body {
   font-weight: 800;
   font-size: 15px;
 }
+
+@media (max-width: 420px) {
+  .card {
+    width: 320px;
+    height: 460px;
+    padding: 0 20px;
+  }
+
+  .card .image img {
+    width: 280px;
+  }
+
+  .card .text h1 {
+    font-size: 20px
+  }
+
+  .card .text p {
+    font-size: 14px;
+  }
+
+  .card .state-date .state {
+    font-size: 14px;
+  }
+
+  .card .state-date .date {
+    font-size: 13px
+  }
+
+  .card .author img {
+    width: 30px;
+  }
+
+  .card .author span {
+    font-size: 14px;
+  }
+}
